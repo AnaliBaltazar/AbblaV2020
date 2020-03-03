@@ -1,0 +1,79 @@
+//Buttons start
+
+    .btn-warning{
+        color: $color1;
+        background-color: $color5;
+        border-color: $color5;
+        width: 300px;
+        height: 48px;
+        border-radius: 4px;
+        -webkit-box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+		-moz-box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+		box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .btn-warning:HOVER{
+        color: $color33;
+        background-color: $color32;
+        border-color: $color32;
+        width: 300px;
+        height: 48px;
+        border-radius: 4px;
+        -webkit-box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+		-moz-box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+		box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+.btn-contact {
+        color: white;
+        background-color: transparent;
+        border-color: white;
+        width: 220px;
+        height: 48px;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 700;
+ }
+
+.btn-contact:HOVER{
+        color: #1E3853;
+        background-color: white;
+        border-color: #1E3853;
+        width: 220px;
+        height: 48px;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+
+.btn-warning2{
+        color: $color1;
+        background-color: #1E3853;
+        border-color: #1E3853;
+        width: 300px;
+        height: 48px;
+        border-radius: 4px;
+        -webkit-box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+		-moz-box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+		box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .btn-warning2:HOVER{
+        color: white;
+        background-color: #4777AA;
+        border-color: #4777AA;
+        width: 300px;
+        height: 48px;
+        border-radius: 4px;
+        -webkit-box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+		-moz-box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+		box-shadow: 3px 5px 12px 3px rgba(213,213,213,1);
+        font-size: 14px;
+        font-weight: 700;
+    }
+//Buttons end

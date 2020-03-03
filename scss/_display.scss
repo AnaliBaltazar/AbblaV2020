@@ -1,0 +1,1143 @@
+@import 'colors';
+@import 'fonts';
+
+@media screen and (min-width:1024px){
+//Containers display start
+.rowDisplayContainers{
+margin: 50px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+.colDisplayContainers{
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+.colDisplayContainers2{
+display: none;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+.smsClic{
+    display: block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+
+.whatsAppClic{
+    display: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+
+.colImg1{
+display: none;
+}
+
+.colImg1-1{
+    display: flex;
+}
+
+.rowBorderContainer{
+background-color: $color1;
+appearance: none;
+-moz-appearance: none;
+-webkit-appearance: none;
+padding: 0px 0px 0px 0px;
+margin:auto;
+}
+
+.rowBorderContainer2{
+background-color: $color1;
+appearance: none;
+-moz-appearance: none;
+-webkit-appearance: none;
+}
+
+
+.colImgSmsDisplayContainer{
+    margin: 11px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+.button1{
+    background: $color5;
+    border-radius: 0px;
+    padding: 0px 0px 0px 0px;
+    margin:auto;
+    padding: 0px 0px 0px 0px;    
+    .text1{
+        font-weight: 600;
+        font-size: 28px;
+        color: $color1;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .text2{
+        font-weight: 400;
+        font-size: 14px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 66px 0px;
+    }
+}
+
+.button1-1{
+    background: #EAEFF4;
+    border-radius: 0px;
+    padding: 0px 0px 0px 0px;
+    margin:auto;
+	
+
+    .text3{
+        font-weight: 600;
+        font-size: 20px;
+        color: #1E3853;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
+    }
+    .text4{
+        font-weight: 400;
+        font-size: 14px;
+        color: #1E3853;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 35px 0px;
+    }
+    
+}
+	
+	
+.button1-1:hover{
+    background: #EAEFF4;
+    border-radius: 0px;
+    padding: 0px 0px 0px 0px;
+    margin:auto;
+	
+
+    .text3{
+        font-weight: 600;
+        font-size: 20px;
+        color: #1E3853;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
+    }
+    .text4{
+        font-weight: 400;
+        font-size: 14px;
+        color: #1E3853;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 35px 0px;
+    }
+    
+}
+
+.button2-1{
+    background: $color28;
+    border-radius: 0px;
+    border-color: $color28;
+    padding: 0px 0px 0px 0px;
+    margin:auto;
+
+    .text3{
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
+    }
+    .text4{
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 35px 0px;
+    }
+}
+
+.rowBorderContainer:hover{
+    background: $color5;
+    border-radius: 0px;
+    margin:auto;
+    padding: 0px 0px 0px 0px;  
+
+    .text1{
+        font-weight: 600;
+        font-size: 28px;
+        color: $color1;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .text2{
+        font-weight: 400;
+        font-size: 14px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+.hover2:hover{
+    background: $color28;
+    border-radius: 0px;
+    border-color: $color28;
+    padding: 0px 0px 0px 0px;
+    margin:auto;
+    .text3{
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
+    }
+    .text4{
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 35px 0px;
+    }
+}
+
+
+//Containers display end
+
+//Images display start
+.imgSmsDisplay{
+    width: 53.38px;
+    height: 32.06px;
+    margin: 40px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: right;
+}
+
+.imgVia1{
+    width: 233px;
+    margin: auto auto auto auto;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+}
+//Images display end
+
+//Text display start
+
+.text1{
+    font-weight: 600;
+    font-size: 28px;
+    color: $color30;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
+}
+
+.text2{
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E3853;
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 66px 0px;
+}
+
+.text3{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+.text4{
+    font-weight: 400;
+    font-size: 14px;
+    color: $color27;
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 35px 0px;
+}
+
+.colText2{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.rowText1{
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    
+}
+    
+
+.textVia1{
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color27;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+.textFlash{
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color27;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+.textTrigger{
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color27;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+.textVia2{
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color27;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+    .textVia1-1{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color27;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .textTrigger-1{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color27;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .textVia2-1{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color27;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+    }
+
+
+
+//Text display end
+
+//Buttons display start
+
+.bntDisplay{
+    color: $color1;
+    background-color: $color5;
+    border-color: $color5;
+    width: 256px;
+    height: 48px;
+    border-radius: 4px;
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    margin: 32px auto 40px auto;
+}
+
+
+
+.clicStyle{
+    display: block;
+}
+.clicStyle2{
+    display: none;
+}
+.rowText1{
+    display: none;
+}
+}
+    
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    //Containers display start
+    .rowDisplayContainers{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .colDisplayContainers{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .colDisplayContainers2{
+    display: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .smsClic{
+        display: block;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        }
+    
+    .whatsAppClic{
+        display: none;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        }
+    
+    .colImg1{
+    display: none;
+    }
+    
+    .colImg1-1{
+        display: flex;
+    }
+    
+    .rowBorderContainer{
+    background-color: $color1;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 0px 0px 0px 0px;
+    margin:auto;
+    }
+    
+    .rowBorderContainer2{
+    background-color: $color1;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    }
+    
+    
+    .colImgSmsDisplayContainer{
+        padding: 0px 0px 0px 0px;
+        
+    }
+    
+    .button1{
+        background: $color5;
+        border-radius: 0px;
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+        padding: 0px 0px 0px 0px;    
+        .text1{
+            font-weight: 600;
+            font-size: 28px;
+            color: $color1;
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 30px 0px 0px 0px;
+        }
+    
+        .text2{
+            font-weight: 400;
+            font-size: 14px;
+            color: white;
+            font-family: 'Raleway', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 66px 0px;
+        }
+    }
+    
+    .button1-1{
+        background: #EAEFF4;
+        border-radius: 0px;
+        border-color: $color28;
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+    
+        .text3{
+            font-weight: 600;
+            font-size: 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 20px 0px 0px 0px;
+        }
+        .text4{
+            font-weight: 400;
+            font-size: 14px;
+            color: $color27;
+            font-family: 'Raleway', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 35px 0px;
+        }
+        
+    }
+    
+    .button2-1{
+        background: $color28;
+        border-radius: 0px;
+        border-color: $color28;
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+    
+        .text3{
+            font-weight: 600;
+            font-size: 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 20px 0px 0px 0px;
+        }
+        .text4{
+            font-weight: 400;
+            font-size: 14px;
+            color: $color27;
+            font-family: 'Raleway', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 35px 0px;
+        }
+    }
+    
+    .rowBorderContainer:hover{
+        background: $color5;
+        border-radius: 0px;
+        margin:auto;
+        padding: 0px 0px 0px 0px;  
+    
+        .text1{
+            font-weight: 600;
+            font-size: 28px;
+            color: $color1;
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 30px 0px 0px 0px;
+        }
+    
+        .text2{
+            font-weight: 400;
+            font-size: 14px;
+            color:#1E3853;
+            font-family: 'Raleway', sans-serif;
+            padding: 0px 0px 0px 0px;
+        }
+    }
+    
+    .hover2:hover{
+        background: $color28;
+        border-radius: 0px;
+        border-color: $color28;
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+        .text3{
+            font-weight: 600;
+            font-size: 20px;
+
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 20px 0px 0px 0px;
+        }
+        .text4{
+            font-weight: 400;
+            font-size: 14px;
+
+            font-family: 'Raleway', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 35px 0px;
+        }
+    }
+    
+    
+    //Containers display end
+    
+    //Images display start
+    .imgSmsDisplay{
+        width: 53.38px;
+        height: 32.06px;
+        margin: 40px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        float: right;
+    }
+    
+    .imgVia1{
+        width: 233px;
+        margin: auto auto auto auto;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+    }
+    //Images display end
+    
+    //Text display start
+    
+    .text1{
+        font-weight: 600;
+        font-size: 28px;
+        color: $color30;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
+    }
+    
+    .text2{
+        font-weight: 400;
+        font-size: 14px;
+        color: #1E3853;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 66px 0px;
+    }
+    
+    .text3{
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
+    }
+    
+    .text4{
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 35px 0px;
+    }
+    
+    .colText2{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    
+    .rowText1{
+        display: flex;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        
+    }
+        
+    
+    .textVia1{
+        display: flex;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color27;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .textFlash{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color27;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .textTrigger{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color27;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .textVia2{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color27;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+        .textVia1-1{
+            display: none;
+            font-weight: 400;
+            font-size: 14px;
+            color: $color27;
+            font-family: 'Raleway', sans-serif;
+            padding: 10px 30px 10px 30px;
+            margin: 0px 0px 0px 0px;
+        }
+    
+        .textTrigger-1{
+            display: none;
+            font-weight: 400;
+            font-size: 14px;
+            color: $color27;
+            font-family: 'Raleway', sans-serif;
+            padding: 10px 30px 10px 30px;
+            margin: 0px 0px 0px 0px;
+        }
+    
+        .textVia2-1{
+            display: none;
+            font-weight: 400;
+            font-size: 14px;
+            color: $color27;
+            font-family: 'Raleway', sans-serif;
+            padding: 10px 30px 10px 30px;
+            margin: 0px 0px 0px 0px;
+        }
+    
+    
+    
+    //Text display end
+    
+    //Buttons display start
+    
+    .bntDisplay{
+        color: $color1;
+        background-color: $color5;
+        border-color: $color5;
+        width: 256px;
+        height: 48px;
+        border-radius: 4px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+        margin: 32px auto 40px auto;
+    }
+    
+    
+    
+    .clicStyle{
+        display: block;
+    }
+    .clicStyle2{
+        display: none;
+    }
+    .rowText1{
+        display: none;
+    }
+    }
+    
+@media screen and (min-width: 359px) and (max-width: 767px){
+//Containers display start
+.rowDisplayContainers{
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .colDisplayContainers{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    border-bottom: 1px solid $color2;
+    }
+    
+    .colDisplayContainers2{
+    display: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    border-bottom: 1px solid $color2;
+    }
+
+    .smsClic{
+        display: flex;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        border-bottom: 1px solid $color2;
+        }
+    
+    .whatsAppClic{
+        display: none;
+        margin: 00px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        border-bottom: 1px solid $color2;
+        }
+    
+    .colImg1{
+    display: none;
+    }
+    .colImg1-1{
+        display: flex;
+    }
+    .rowBorderContainer{
+    background-color: $color1;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 0px 0px 0px 0px;
+    margin:auto;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    height: 67px;
+    }
+    
+    .rowBorderContainer2{
+    background-color: $color1;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    }
+    
+    .rowDisplayContainers{
+        
+    }
+    
+    .rowBorderContainer3{
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+        text-align: center;
+        height: 53px;
+    }
+  
+
+    .colImgSmsDisplayContainer{
+        margin: 11px auto auto auto;
+        padding: 0px 0px 0px 0px;
+        
+    }
+
+    .button1{
+        background: $color5;
+        border-radius: 0px;
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+        text-align: center;
+        padding: 0px 0px 0px 0px;       
+        height: 67px;
+        .text1{
+            font-weight: 600;
+            font-size: 24px;
+            color: $color1;
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+            text-align: center;
+        }
+    }
+
+    .button1-1{
+        background: #EAEFF4;
+        border-radius: 0px;
+        border-color: $color28;
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+        text-align: center;
+        height: 53px;
+
+        .text3{
+            font-weight: 600;
+            font-size: 20px;
+            padding: 0px 0px 0px 0px;
+            margin:auto;
+            text-align: center;
+        }
+        .text4{
+            display: none;
+            font-weight: 400;
+            font-size: 14px;
+            font-family: 'Raleway', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 35px 0px;
+        }
+        
+    }
+
+    .button2-1{
+        background: $color28;
+        border-radius: 0px;
+        border-color: $color28;
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+        text-align: center;
+        height: 53px;
+        .text3{
+            font-weight: 600;
+            font-size: 20px;
+            padding: 0px 0px 0px 0px;
+            margin:auto;
+            text-align: center;
+        }
+        .text4{
+            display: none;
+            font-weight: 400;
+            font-size: 14px;
+            font-family: 'Raleway', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 35px 0px;
+        }
+    }
+
+    .rowBorderContainer:hover{
+        background: $color5;
+        border-radius: 0px;
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+        text-align: center;
+        padding: 0px 0px 0px 0px;       
+        height: 67px;
+        .text1{
+            font-weight: 600;
+            font-size: 24px;
+            color: $color1;
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+            text-align: center;
+            
+        }
+        .text2{
+            display: none;
+            font-weight: 400;
+            font-size: 14px;
+            color: #1E3853;
+            font-family: 'Raleway', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 66px 0px;
+        }
+    }
+    
+    .hover2:hover{
+        background: $color28;
+        border-radius: 0px;
+        border-color: $color28;
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+        text-align: center;
+        height: 53px;
+        .text3{
+            font-weight: 600;
+            font-size: 20px;
+            padding: 0px 0px 0px 0px;
+            margin:auto;
+            text-align: center;
+        }
+        .text4{
+            display: none;
+            font-weight: 400;
+            font-size: 14px;
+            font-family: 'Raleway', sans-serif;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 35px 0px;
+        }
+    }
+    
+    
+
+    //Containers display end
+    
+    //Images display start
+    .imgSmsDisplay{
+        width: 21.44px;
+        height: 11.57px;
+        margin: auto;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+    }
+    
+	.imgVia1{
+        display: flex;
+        width: 250px;
+        margin: 10px auto auto auto;
+        padding: 0px 0px 0px 0px;
+	}
+	
+	
+    //Images display end
+    
+    //Text display start
+    
+    .text1{
+        font-weight: 600;
+        font-size: 24px;
+        color: $color30;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .text2{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color29;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 66px 0px;
+    }
+    
+    .text3{
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin:auto;
+        text-align: center;
+    }
+    
+    .text4{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 35px 0px;
+    }
+
+
+        .colText2{
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            text-align: center;
+        }
+
+.rowText1{
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    
+}
+    
+
+
+
+.textVia1{
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color27;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.textFlash{
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color27;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.textTrigger{
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color27;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.textVia2{
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color27;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+    .textVia1-1{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color27;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .textTrigger-1{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color27;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .textVia2-1{
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color27;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    //Text display end
+    
+    //Buttons display start
+    
+    .bntDisplay{
+        color: $color1;
+        background-color: $color5;
+        border-color: $color5;
+        width: 256px;
+        height: 48px;
+        border-radius: 4px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+        margin: 32px auto 40px auto;
+    }
+    
+    /*.hoverDisplay:active{
+        color: $color1;
+        background-color: $color5;
+        border-color: $color5;
+    }*/
+    //Buttons display end
+    
+    
+    .clicStyle{
+        display: flex;
+    }
+
+    .clicStyle2{
+        display: none;
+    }
+    
+
+}
+

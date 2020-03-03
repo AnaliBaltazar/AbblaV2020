@@ -1,0 +1,101 @@
+@import 'colors';
+@import 'fonts';
+
+
+
+
+
+
+
+
+
+
+
+//Texts carousel start
+.txtSlides{
+    color: $color1;
+    .txtSmsSlide{
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .txtSlide{
+        font-weight: 600;
+        font-size: 28px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .descritiveTextSlide{
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .linkSlide{
+        color: $color1;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+//Texts carousel end
+
+//Texts about start
+.bestText{
+    font-weight: 700;
+    font-size: 50px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.texItems{
+    font-weight: 700;
+    font-size: 15px;
+    color: $color4;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+//Texts about end
+
+//Texts steps start
+.stepTextContainer{
+    text-align: center;
+}
+
+.textSteps{
+    font-weight: 700;
+    font-size: 50px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.txtStep{
+    font-weight: 600;
+    font-size: 20px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.txtStepOption{
+    font-weight: 400;
+    font-size: 14px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+//Texts steps end
+
+//Texts sample start
+.easyFormText{
+    font-weight: 700;
+    font-size: 50px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+//Texts sample end
+
+//Texts layout start
+
+//Texts layout end
+

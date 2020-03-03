@@ -1,0 +1,319 @@
+@import 'colors';
+@import 'fonts';
+
+@media screen and (min-width:1024px){
+//Container steps start
+.stepPrincipalContiner{
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+    }
+    
+    .stepTextContainer{
+    margin: 100px 0px 50px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .stepsPrimaryContainer{
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px 0px 70px 0px;
+    }
+
+    .imgStepsContainer{
+        margin: auto;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .stepContainer{
+    margin: 50px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .circleContainer{
+    margin: 32px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .txtStepContainer{
+    margin: 9px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .txtOptionContainer{
+    margin: 9px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    //Container steps end
+
+    //Texts steps start
+.stepTextContainer{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.textSteps{
+    font-weight: 700;
+    font-size: 50px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.txtStep{
+    font-weight: 600;
+    font-size: 20px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+	margin-bottom: auto;
+    line-height: 1;
+}
+
+.txtStepOption{
+    font-weight: 400;
+    font-size: 14px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+//Texts steps end
+
+//Images steps start
+.imgStepPhone{
+    height: 51px;
+    padding: 0px 0px 0px 0px;
+  }
+  
+  .circle {
+    width: 46px;
+    height: 46px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: $color4;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    color: $color1;
+    padding: 0px 0px 0px 0px;
+  }
+//Images steps end
+}
+    
+@media screen and (min-width: 768px) and (max-width: 1023px){
+//Container steps start
+.stepPrincipalContiner{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .stepTextContainer{
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .stepsPrimaryContainer{
+    justify-items: center;
+    align-items: center;
+    margin: auto auto 50px auto;
+    padding: 0px 0px 0px 0px;
+    }
+
+    .imgStepsContainer{
+        margin: auto;
+        padding: 35px;
+    }
+    
+    .stepContainer{
+    margin: 50px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .circleContainer{
+    margin: 32px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .txtStepContainer{
+    margin: 9px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .txtOptionContainer{
+    margin: 9px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    //Container steps end
+
+    //Texts steps start
+.stepTextContainer{
+    text-align: center;
+}
+
+.textSteps{
+    font-weight: 700;
+    font-size: 50px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.txtStep{
+    font-weight: 600;
+    font-size: 20px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.txtStepOption{
+    font-weight: 400;
+    font-size: 14px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+//Texts steps end
+
+//Images steps start
+.imgStepPhone{
+        height: 51px;
+  }
+  
+  .circle {
+    width: 46px;
+    height: 46px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: $color4;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    color: $color1;
+  }
+//Images steps end
+}
+    
+@media screen and (min-width: 359px) and (max-width: 767px){
+//Container steps start
+.stepPrincipalContiner{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .stepTextContainer{
+    margin: 55px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .stepsPrimaryContainer{
+	height: 1300px;
+	margin: auto auto 80px auto;
+    justify-items: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    }
+
+    .imgStepsContainer{
+        margin: auto;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .stepContainer{
+    margin: 50px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .circleContainer{
+    margin: 32px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .txtStepContainer{
+    margin: 9px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .txtOptionContainer{
+    margin: 9px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    }
+    //Container steps end
+
+    //Texts steps start
+.stepTextContainer{
+    text-align: center;
+}
+
+.textSteps{
+    font-weight: 700;
+    font-size: 25px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.txtStep{
+	margin: auto;
+    font-weight: 600;
+    font-size: 20px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.txtStepOption{
+    font-weight: 400;
+    font-size: 14px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+//Texts steps end
+
+//Images steps start
+.imgStepPhone{
+    height: 90px;
+  }
+  
+  .circle {
+    width: 46px;
+    height: 46px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: $color4;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    color: $color1;
+  }
+//Images steps end
+}
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 51.6" style="enable-background:new 0 0 48 51.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#4F83CC;}
+	.st2{clip-path:url(#SVGID_2_);}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#01579B;}
+	.st5{fill:#002F6C;}
+	.st6{fill:#79A8E0;}
+	.st7{fill:#063F7C;}
+</style>
+<title>Para-comer</title>
+<g>
+	<g id="Capa_1-2">
+		<rect class="st0" width="48" height="48"/>
+		<circle class="st1" cx="24" cy="24" r="23.8"/>
+		<g>
+			<defs>
+				<circle id="SVGID_1_" cx="24" cy="24" r="23.8"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st2">
+				<rect x="38.7" y="37.4" class="st3" width="6.3" height="0"/>
+				<polygon class="st4" points="45,37.4 17.5,37.4 18.1,21.5 18.1,20.5 18.6,6.2 43.9,6.2 				"/>
+				<path class="st5" d="M37.6,9.5L37.6,9.5c-0.4,0-0.8,0.4-0.8,0.8v2.9c0,3-2.4,5.5-5.4,5.6c-3.1,0.1-5.6-2.4-5.7-5.4
+					c0,0,0-0.1,0-0.1v-3c0-0.4-0.4-0.8-0.8-0.8c-0.4,0-0.8,0.4-0.8,0.8v2.9c-0.2,3.9,2.9,7.3,6.8,7.5c3.9,0.2,7.3-2.9,7.5-6.8
+					c0-0.2,0-0.3,0-0.5v-3C38.4,9.9,38.1,9.5,37.6,9.5C37.6,9.5,37.6,9.5,37.6,9.5z"/>
+				<polygon class="st6" points="28,51.6 0.6,51.6 0.9,42.5 1.7,20.5 27,20.5 27,22.5 27.5,35.8 27.5,37.4 				"/>
+				<path class="st7" d="M20.7,25L20.7,25c-0.4,0-0.8-0.3-0.8-0.8c0,0,0,0,0,0v-2.9c0-3.1-2.4-5.6-5.5-5.6c-3.1,0-5.6,2.4-5.6,5.5v3
+					C8.8,24.6,8.4,25,8,25c-0.4,0-0.8-0.4-0.8-0.8v-2.9C7,17.3,10.1,14,14,13.8s7.3,2.9,7.5,6.8c0,0.2,0,0.3,0,0.5v3
+					C21.5,24.6,21.2,25,20.7,25C20.7,25,20.7,25,20.7,25z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

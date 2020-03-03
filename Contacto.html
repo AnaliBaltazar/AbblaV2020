@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>abbla-abbla</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<style type="text/css">
+/*Rules for sizing the icon*/
+.material-icons.md-18 { font-size: 10px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px;margin-top: 80px; }
+
+</style>
+</head> 
+<body>		 
+<!--Header start-->
+	
+    <div id="backColor" class="row headerContainer">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 navigateLinksContainer">
+            <nav class="navbar navbar-expand-lg navbar-light">
+				 <a class="navbar-brand" href="./index.html">
+                <img class="imgabbla1" src="./images/logo_color.png" alt="Logo Abbla">
+					 </a>
+                <button id="btnChange" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">       
+                    <ul class="navbar-nav">
+                        <li class="nav-item link-norml alignTextContainer">
+                            <a class="nav-link link-norml configText2 " href="./index.html">ACERCA DE<span class="sr-only ">(current)</span></a>
+                        </li>
+                        <li class="nav-item link-norml alignTextContainer">
+                            <a class="nav-link configText2" href="./display.html">SERVICIOS <span class="sr-only">(current)</span></a>
+                        </li>
+						<li class="btnProbeLi">
+                            <button class="btn btn-outline-dark my-2 my-sm-0 btnProbe" type="submit">CONTACTAR</button>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div> 
+    </div>
+<!--Header end-->
+
+
+
+<!--Contacto start-->
+<div class="row celularcont" style=" width: 100%; margin: auto;">
+        <div class="col- col-sm- col-md-12 col-lg-6" >
+            <div class="row">
+                <div class="col- col-sm- col-md- col-lg-12 bestContainer">
+                    <div class="contacimg"><img src="./images/contacto.png" alt="celular con mensajes" class="contacimg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col- col-sm- col-md-12 col-lg-6" style="margin: auto; font-family: 'Raleway', sans-serif;">
+		<p> <span Style="letter-spacing:1.4px; font-weight: 700;"> CONTACTO </span><br>
+			<span style="font-weight: 300; font-size: 15;">Queremos trabajar juntos en algo increíble mándanos tus datos y nos pondremos en contacto.
+			</span>	
+		</p>
+           <form class="needs-validation" novalidate style="font-size: 12px; font-weight: 600; margin-top:50px;">
+  			<div class="form-row">
+    			<div class="col-md-5 mb-5 margin2rem">
+      			<label for="validationCustom01">Nombre</label>
+      				<input type="text" class="form-control" id="validationCustom01" placeholder="Escribe tu nombre" value="" required>
+    			</div>
+    			<div class="col-md-5 mb-5 margin2rem">
+      			<label for="validationCustom02">Apellido</label>
+      			<input type="text" class="form-control" id="validationCustom02" placeholder="Escribe tu apellido" value="" required>
+    			</div>
+  			</div>
+  			<div class="form-row">
+    			<div class="col-md-5 mb-5 margin2rem">
+      				<label for="validationCustom04">Teléfono</label>
+      				<input type="text" class="form-control" id="validationCustom04" placeholder="0000-0000" 	required>
+      				<div class="invalid-feedback">Necesitamos un teléfono para ponernos en contacto contigo.
+      				</div>
+    			</div>
+    			<div class="col-md-5 mb-5 margin2rem">
+      				<label for="validationCustom05">Email</label>
+      				<input type="text" class="form-control" id="validationCustom05" placeholder="nombre@empresa.com" required>
+      				<div class="invalid-feedback">
+        			Tener tu mail nos ayuda a poder contactarte.
+					</div>
+    			</div>
+  			</div>
+			<div class="form-group">
+    			<div class="form-check">
+      				<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      				<label class="form-check-label" for="invalidCheck">
+        				Quiero solicitar una demostración
+      				</label>
+				</div>
+		    </div> 
+			<div class="form-row">
+				<div class="col-md-10 mb-10 margin2rem">
+    				<label for="exampleFormControlTextarea1">Cuéntanos sobre los proyectos que tengas en mente</label>
+    				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+  					</div>
+			<button class="btn btn-warning2" type="submit">Enviar</button>
+			</div>
+</form> 
+
+        </div>
+    </div>
+<!--Contacto end-->
+
+<!--Footer start-->
+<div class="row footerContainers">
+    <div class="col- col-sm- col-md-12 col-lg-3 textfyContainer">
+        <img class="Logo-footer" src="./images/logo-blanco.png" alt="logo abbla blanco">
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-5 menuColContainer">
+        <p class="textFooterMenu">Menu</p>
+        <ul class="navbar-nav ">
+            <li class="nav-item active">
+                <a class="nav-link text textFooterlinks textlinkContainer1" href="./index.html">Acerca de</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link textFooterlinks textlinkContainer2" href="./display.html">Servicios</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link textFooterlinks textlinkContainer2" href="./Contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 contactColContainer">
+        <p class="textFooterContact">¡Trabajemos juntos!</p>
+        <p class="textFooterListenlinks">Nos encantan los nuevos retos</p>
+		<br>
+        <button type="button" class="btn btn-contact ">CONTACTAR</button>
+    </div>
+    <div class="row border-top weColContainer">
+        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+            <a class="nav-link textFooterWelinks textPowered" href="https://go4it.mx/">Powered by Go4it</a>
+        </div>
+        <div class="col-2 col-sm-2 col-md-2 col-lg-2 weContainer">
+            <a class="nav-link textFooterWelinks2" href="https://go4it.mx/Aviso%20de%20Privacidad%20Devising%20Solutions%20SAPI%20de%20CV.PDF">Aviso de Privacidad</a>
+        </div>
+        <div class="col-12 col-sm-2 col-md-2 col-lg-2 weContainer">
+            <a class="nav-link textFooterWelinks3" href="#">Terminos y Condiciones</a>
+        </div>
+    </div>
+</div>
+<!--Footer end-->
+<script src="./js/principal.js"></script>
+</body>
+</html>

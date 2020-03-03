@@ -1,0 +1,437 @@
+@import 'colors';
+@import 'fonts';
+@import 'images';
+
+
+
+@media screen and (min-width:1024px){
+//Container services start
+.servicesContainer{
+  padding: 120px 0px 120px 0px;
+  background-color: #1E3853;
+  width: 100%;
+  margin: auto;
+}
+
+.exploreTextContainer{
+  margin: auto 80px auto 50px;
+  padding: 0px 0px 0px 0px;
+}
+
+.btn2Container1{
+  margin: 24px 112px 48px 32px;
+  padding: 0px 0px 0px 0px;
+}
+
+.btn2Container2{
+  margin: 24px 112px 48px 32px;
+  display:none !important;
+  padding: 0px 0px 0px 0px;
+}
+
+.serviciosIcon{
+    height: 55px;
+	margin: 0px auto 0px 35px;
+    }
+	
+.scrollitems{
+  height: 310px;
+  overflow: auto;
+  display: flex;
+  padding: 0px 0px 0px 0px;
+  background-color: #1E3853;
+}
+  
+.scrollitems::-webkit-scrollbar {
+  height: 8px;
+  padding: 0px 0px 0px 0px;
+}
+  
+.scrollitems::-webkit-scrollbar-thumb {
+  background: #4F83CC;
+  width: 15px;
+  padding: 0px 0px 0px 0px;
+}
+  
+.jumbotronExplore{
+  margin: 5px 16px 5px 16px;
+  padding: 0px 0px 0px 0px;
+  border-radius: 29px;
+  width: 800px;
+  height: 228px;
+  background-color: transparent;
+}
+  
+.jumbotronDollar{
+  width: 30px;
+  margin: 32px 15.61px 31.17px 32px;
+  padding: 0px 0px 0px 0px;
+}
+  
+.descriptiveText{
+  width: 176PX;
+  height: 136px;
+  margin: auto 24px 16px 24px;
+  padding: 0px 0px 0px 0px;
+}
+  
+.descriptiveText2{
+  width: 262PX;
+  height: 136px;
+  margin: auto 24px 16px 24px;
+  padding: 0px 0px 0px 0px;
+}
+  
+#jmtronContainer{
+  min-width: 322px;
+  padding: 0px 0px 0px 0px;
+}
+//Container services end
+
+//Buttons start
+
+.btn-warning{
+    color: $color1;
+    background-color: $color5;
+    border-color: $color5;
+    width: 256px;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 0px 0px 0px;
+}
+
+//Buttons end
+
+//Texts services start
+.textExplore{
+    font-weight: 600;
+    font-size: 40px;
+	line-height: 2rem;
+    color: #3B536D;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.subtextExplore{
+    font-weight: 500;
+    font-size: 20px;
+    color: #3B536D;
+    font-family: 'Raleway', sans-serif;
+} 
+	
+	
+.descriptiveText2{
+    font-size: 13px;
+    text-align: left;
+	color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.descriptiveText{
+    font-size: 12px;
+	font-weight: 300;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+.bigText{
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 15px auto 10px 35px;
+}
+
+.link-j{
+    font-size: 12px;
+    color: #1670B7;
+    font-family: 'Raleway', sans-serif;
+	text-decoration: underline;
+}
+//Texts services end
+}
+    
+@media screen and (min-width: 768px) and (max-width: 1023px){
+//Container services start
+
+.serviciosIcon{
+    height: 38px;
+	margin: 0px auto 0px 35px;
+    }	
+	
+.servicesContainer{
+  padding: 90px 0px 90px 0px;
+  background-color: #1E3853;
+  width: 100%;
+  margin: auto;
+}
+
+.exploreTextContainer{
+  margin: auto auto auto 44px;
+  padding: 0px 0px 0px 0px;
+}
+
+.btn2Container1{
+  display:none !important;
+  margin: 24px 112px 48px 32px;
+  padding: 0px 0px 0px 0px;
+}
+
+.btn2Container2{
+  margin: 40px auto auto 32px;
+  padding: 0px 0px 0px 0px;
+}
+
+.scrollitems{
+  height: 300px;
+  overflow: auto;
+  display: flex;
+  padding: 0px 0px 0px 0px;
+  background-color: #1E3853;
+}
+  
+.scrollitems::-webkit-scrollbar {
+  width: 136px;  
+  height: 5px;
+  padding: 0px 0px 0px 0px;
+}
+  
+.scrollitems::-webkit-scrollbar-thumb {
+  background: #4F83CC;
+  padding: 0px 0px 0px 0px;
+}
+  
+.jumbotronExplore{
+  margin: 5px 16px 5px 16px;
+  padding: 0px 0px 0px 0px;
+  border-radius: 29px;
+  width: 224px;
+  height: 264px;
+  background-color: transparent;
+}
+  
+.jumbotronDollar{
+  width: 48.83px;
+  height: 48.83px;
+  margin: 32px 15.61px 31.17px 32px;
+  padding: 0px 0px 0px 0px;
+}
+
+
+.descriptiveText{
+  width: 176PX;
+  height: 136px;
+  margin: 0px 24px 16px 24px;
+  padding: 0px 0px 0px 0px;
+}
+  
+.descriptiveText2{
+  width: 262PX;
+  height: 136px;
+  margin: 0px 24px 16px 24px;
+  padding: 0px 0px 0px 0px;
+}
+  
+#jmtronContainer{
+  min-width: 322px;
+  padding: 0px 0px 0px 0px;
+}
+//Container services end
+
+//Buttons start
+
+.btn-warning{
+    color: $color1;
+    background-color: $color5;
+    border-color: $color5;
+    width: 256px;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: -2px 2px 6px $color6;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+//Buttons end
+
+//Texts services start
+.textExplore{
+    font-weight: 700;
+    font-size: 37px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.descriptiveText2{
+    font-size: 13px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.descriptiveText{
+    font-size: 13px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+.bigText{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 15px auto 10px 35px
+}
+
+.smallText{
+    font-size: 14px;
+    color: $color20;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+//Texts services end
+}
+    
+@media screen and (min-width: 359px) and (max-width: 767px){
+//Container services start
+	
+.serviciosIcon{
+    height: 38px;
+	margin: 0px auto 0px 35px;
+    }	
+		
+	
+.servicesContainer{
+  padding: 90px 0px 90px 0px;
+  background-color: #1E3853;
+  width: 100%;
+  margin: auto;
+}
+
+.exploreTextContainer{
+  margin: 0px 0px 0px 26px;
+}
+
+.btn2Container1{
+  display:none !important;
+  margin: 24px 112px 48px 32px;
+  padding: 0px;
+}
+
+.btn2Container2{
+  display: block;
+  justify-items: center;
+  align-items: center;
+  margin: 24px auto auto auto;
+  padding: 0px 0px 0px 0px;
+}
+
+.scrollitems{
+  height: 300px;
+  overflow: auto;
+  display: flex;
+}
+  
+.scrollitems::-webkit-scrollbar {
+  width: 10px;  
+  height: 5px;
+}
+  
+.scrollitems::-webkit-scrollbar-thumb {
+  background: #4F83CC;
+}
+  
+.jumbotronExplore{
+  margin: 5px 16px 5px 16px;
+  padding: 0px;
+  border-radius: 29px;
+  width: 224px;
+  height: 228px;
+  background-color: transparent;
+}
+  
+.jumbotronDollar{
+  width: 48.83px;
+  height: 48.83px;
+  margin: 32px 15.61px 31.17px 32px;
+  padding: 0px;
+}
+  
+  
+.descriptiveText{
+  width: 176PX;
+  height: 136px;
+  margin: 0px 24px 16px 24px;
+  padding: 0px;
+  color: white;
+}
+  
+.descriptiveText2{
+  width: 262PX;
+  height: 136px;
+  margin: 0px 24px 16px 24px;
+  padding: 0px;
+  color: white;
+}
+  
+#jmtronContainer{
+  min-width: 322px;
+}
+//Container services end
+
+//Buttons start
+
+.btn-warning{
+    color: $color1;
+    background-color: $color5;
+    border-color: $color5;
+    width: 256px;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: -2px 2px 6px $color6;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+//Buttons end
+
+//Texts services start
+.textExplore{
+    font-weight: 700;
+    font-size: 25px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.descriptiveText2{
+    font-size: 13px;
+    text-align: left;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.descriptiveText{
+    font-size: 13px;
+    text-align: left;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bigText{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 15px auto 10px 35px
+}
+
+.smallText{
+    font-size: 14px;
+    color: $color20;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+//Texts services end
+}

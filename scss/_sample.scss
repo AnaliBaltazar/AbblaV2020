@@ -1,0 +1,256 @@
+@import 'colors';
+@import 'fonts';
+
+.margin2rem{
+margin-bottom: 2rem!important;
+}
+
+@media screen and (min-width:1024px){
+//Container sample start
+	
+.sampleContainer{
+background-color: #C2D0DE;
+width: 100%;
+height: 585px;
+margin: auto;
+padding: 0px 0px 0px 0px;
+}
+
+.easyFormContainer{
+text-align: center;
+}
+
+.bntEasyForm{
+padding: 0px 0px 0px 0px;
+margin:  auto;
+align-items: center;
+justify-items: center;
+}
+
+.colSampleContainer1{
+padding: 0px 0px 0px 0px;
+margin:  auto;
+align-items: center;
+justify-items: center;
+}
+
+.colSampleContainer2{
+padding: 0px 0px 0px 0px;
+margin:  auto;
+align-items: center;
+justify-items: center;
+}
+	
+.colSampleContainer22{
+padding: 0px 0px 0px 0px;
+margin:  auto;
+align-items: center;
+justify-items: center;
+}	
+
+.colSampleContainer3{
+padding: 0px 0px 0px 0px;
+margin: 35px 0px 0px 0px;
+align-items: center;
+justify-items: center;
+}
+
+.colSampleContainer4{
+  display:none !important;
+    padding: 0px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+    }
+	
+.colSampleContainer5{
+  display:none !important;
+    padding: 0px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+    }
+//Container sample end
+
+//Texts sample start
+.easyFormText{
+    font-weight: 700;
+    font-size: 50px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+//Texts sample end
+
+//Images sample start
+.imgSample{
+  height: 550px;
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+}
+	
+.imgSample1{
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 0px 0px;
+}
+	
+	
+//Images sample end
+}
+    
+@media screen and (min-width: 768px) and (max-width: 1023px){
+//Container sample start
+.sampleContainer{
+width: 100%;
+background-color: #C2D0DE;
+margin: auto;
+padding: 0px 0px 0px 0px;
+}
+
+.easyFormContainer{
+text-align: center;
+}
+
+.bntEasyForm{
+padding: 0px 0px 0px 0px;
+margin:  33px 0px 0px 0px;
+align-items: center;
+justify-items: center;
+}
+
+.colSampleContainer1{
+padding: 0px 0px 0px 0px;
+margin:  54px 0px 0px 0px;
+align-items: center;
+justify-items: center;
+}
+
+.colSampleContainer2{
+  padding: 0px 0px 0px 0px;
+  margin: auto 0px auto 0px;
+  align-items: left;
+  justify-items: left;
+  }
+
+  .colSampleContainer3{
+    padding: 0px 0px 0px 0px;
+    margin:  10px 0px 0px 0px;
+    align-items: center;
+    justify-items: center;
+    }
+
+.colSampleContainer4{
+  display:none !important;
+    padding: 0px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+    }
+	
+.colSampleContainer5{
+	display: none !important;
+    padding: 0px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+    }
+//Container sample end
+
+//Texts sample start
+.easyFormText{
+    font-weight: 700;
+    font-size: 37px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+//Texts sample end
+
+//Images sample start
+.imgSample{
+  display: flex;
+  height: 500px;
+  margin: 40px auto 0px auto;
+}
+	
+ .imgSample1{
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+}
+//Images sample end
+}
+    
+@media screen and (min-width: 359px) and (max-width: 767px){
+//Container sample start
+.sampleContainer{
+  width: 100%;
+  background-color: #C2D0DE;
+  height: 800px;
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+  }
+    
+    .easyFormContainer{
+    text-align: center;
+    }
+    
+    .bntEasyForm{
+    padding: 0px 0px 0px 0px;
+    margin:  32px auto auto auto;
+    display: block;
+    }
+    
+	.colSampleContainer0{
+    padding: 0px;
+    margin:  0px;
+    }
+	
+    .colSampleContainer1{
+    padding: 70px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+    height: 10px;
+    }
+    .colSampleContainer2{
+    padding: 0px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+    }
+
+    .colSampleContainer3{
+    padding: 0px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+    display:none !important;
+    }
+
+    .colSampleContainer4{
+    padding: 0px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+    }
+	
+	.colSampleContainer5{
+    padding: 0px 0px 0px 0px;
+    margin:  0px 0px 0px 0px;
+    }
+	
+    //Container sample end
+    
+    //Texts sample start
+    .easyFormText{
+        font-weight: 700;
+        font-size: 30px;
+        color: $color4;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+    }
+    //Texts sample end
+    
+    //Images sample start
+    .imgSample{
+      height: 440px;
+      margin: 20px auto 0px auto;
+      display: flex;
+    }
+	
+	.imgSample1{
+  width: 100%;
+  height: auto;
+  padding: auto;
+  display: flex;
+}
+
+    //Images sample end
+}

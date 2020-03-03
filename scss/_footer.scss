@@ -1,0 +1,568 @@
+@import 'colors';
+@import 'fonts';
+
+@media screen and (min-width:1024px){
+//Container footer  start
+	
+	
+.Logo-footer{
+    height: 39px;
+    width: 138px;
+	margin: 40px;
+}	
+	
+	
+.footerContainers{
+    margin: 0px 0px 0px 0px;
+    padding: 40px;
+    background-color: $color4;
+}
+
+.textfyContainer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+}
+
+.border-top{
+    width: 100%;
+}
+
+.menuColContainer{
+    margin: 35px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.textlinkContainer1{
+    margin: 13px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.textlinkContainer2{
+    margin: 3px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.textlinkContainer3{
+    margin: 75px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.textlinkContainer4{
+    margin: 3px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.faqsColContainer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.contactColContainer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.border-top{
+    margin: 30px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.weColContainer{
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.weContainer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+//Container footer end
+
+//Images footer start
+
+
+.imgFooterArrow{
+    width: 40.24px;
+}
+//Images footer end
+
+//Text footer start
+.footerTexTexfy{
+    margin: 27px 0px 0px 5px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 900;
+    font-size: 37px;
+    color: $color1;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: right;
+}
+
+.textFooterMenu{
+    margin: 0px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.textFooterlinks{
+    font-weight: 300;
+    font-size: 12px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.textFooterContact{
+    margin: 35px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+	
+.textPosibil{
+    margin: 35px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.textFooterListenlinks{
+    margin: 1px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.imgFooterArrow{
+    margin: 22px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.textFooterWelinks{
+    font-weight: 400;
+    font-size: 10px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.textFooterWelinks2{
+    text-align: left;
+    font-weight: 400;
+    font-size: 10px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+}
+
+.textFooterWelinks3{
+    text-align: left;
+    font-weight: 400;
+    font-size: 10px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.textPowered{
+    text-align: left;
+}
+//Text footer end
+}
+    
+@media screen and (min-width: 768px) and (max-width: 1023px){
+//Container footer start
+	.Logo-footer{
+    height: 39px;
+    width: 138px;
+	margin: 40px;
+}	
+	
+    .footerContainers{
+        margin: 0px 0px 0px 0px;
+        padding: 40px;
+        background-color: $color4;
+    }
+    
+    .textfyContainer{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+    }
+    
+    .border-top{
+        width: 100%;
+    }
+    
+    .menuColContainer{
+        margin: 33px auto 0px auto;
+        padding: 0px 0px 0px 0px;
+
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .textlinkContainer1{
+        margin: 13px 0px 0px 40px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .textlinkContainer2{
+        margin: 3px 0px 0px 40px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .textlinkContainer4{
+        margin: 3px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .textlinkContainer3{
+        margin: 75px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .faqsColContainer{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .contactColContainer{
+        margin: 33px auto 0px auto;
+        padding: 0px 0px 0px 50px;
+    }
+    
+    .border-top{
+        margin: 30px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .weColContainer{
+        margin: 30px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .weContainer{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    //Container footer end
+    
+    //Images footer start
+    .imgFooterTexfy{
+        margin: 37.27px 0px 0px 40px;
+        padding: 0px 0px 0px 0px;
+        width: 107px;
+        height: 37px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .imgFooterArrow{
+        width: 40.24px;
+    }
+    //Images footer end
+    
+    //Text footer start
+    .footerTexTexfy{
+        margin: 27px 0px 0px 5px;
+        padding: 0px 0px 0px 0px;
+        font-weight: 900;
+        font-size: 37px;
+        color: $color1;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: right;
+    }
+    
+    .textFooterMenu{
+        margin: 0px 0px 0px 40px;
+        font-weight: 700;
+        font-size: 18px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+    }
+    
+    .textFooterlinks{
+        font-weight: 400;
+        font-size: 12px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+    }
+    
+    .textFooterContact{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        font-weight: 600;
+        font-size: 18px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+    }
+	
+	
+	.textPosibil{
+        margin: 35px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        font-weight: 600;
+        font-size: 18px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+    }
+    
+    .textFooterListenlinks{
+        margin: 1px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+    }
+    
+    .imgFooterArrow{
+        margin: 22px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .textFooterWelinks{
+        font-weight: 400;
+        font-size: 10px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+    }
+    
+    .textFooterWelinks2{
+        text-align: left;
+        font-weight: 400;
+        font-size: 10px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        padding: 21px 0px 21px 0px;
+    }
+    
+    .textFooterWelinks3{
+        text-align: left;
+        font-weight: 400;
+        font-size: 10px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        padding: 21px 0px 21px 0px;
+    }
+    
+    .textPowered{
+        text-align: left;
+        padding: 21px 0px 21px 0px;
+    }
+    //Text footer end
+
+}
+    
+@media screen and (min-width: 359px) and (max-width: 767px){
+//Container footer start
+	.Logo-footer{
+    height: 39px;
+    width: 138px;
+	margin: 40px;
+}	
+	
+.footerContainers{
+    margin: 0px 0px 0px 0px;
+    padding: 40px;
+    background-color: $color4;
+}
+
+.textfyContainer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+}
+
+.border-top{
+    width: 100%;
+}
+
+.menuColContainer{
+    margin: 33px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+
+    align-items: center;
+    justify-items: center;
+}
+
+.textlinkContainer1{
+    margin: 13px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
+}
+
+.textlinkContainer2{
+    margin: 3px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
+}
+
+.textlinkContainer4{
+    margin: 3px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.textlinkContainer3{
+    margin: 75px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.faqsColContainer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.contactColContainer{
+    margin: 33px auto 0px auto;
+    padding: 0px 0px 0px 40px;
+    
+}
+
+.border-top{
+    margin: 30px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.weColContainer{
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.weContainer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+//Container footer end
+
+//Images footer start
+.imgFooterTexfy{
+    margin: 37.27px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
+    width: 107px;
+    height: 37px;
+    align-items: center;
+    justify-items: center;
+}
+
+.imgFooterArrow{
+    width: 40.24px;
+}
+//Images footer end
+
+//Text footer start
+.footerTexTexfy{
+    margin: 27px 0px 0px 5px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 900;
+    font-size: 37px;
+    color: $color1;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: right;
+}
+
+.textFooterMenu{
+    margin: 0px 0px 0px 40px;
+    font-weight: 700;
+    font-size: 18px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.textFooterlinks{
+    font-weight: 400;
+    font-size: 12px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.textFooterContact{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+	
+.textPosibil{
+        margin: 35px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        font-weight: 600;
+        font-size: 18px;
+        color: $color1;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+    }
+
+.textFooterListenlinks{
+    margin: 1px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.imgFooterArrow{
+    margin: 22px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.textFooterWelinks{
+    font-weight: 400;
+    font-size: 10px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.textFooterWelinks2{
+    text-align: left;
+    font-weight: 400;
+    font-size: 10px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    padding: 21px 0px 21px 0px;
+}
+
+.textFooterWelinks3{
+    text-align: left;
+    font-weight: 400;
+    font-size: 10px;
+    color: $color1;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    padding: 21px 50px 21px 0px;
+}
+
+.textPowered{
+    text-align: left;
+    padding: 21px 0px 21px 0px;
+}
+//Text footer end
+}

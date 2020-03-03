@@ -1,0 +1,370 @@
+@import 'colors';
+@import 'containers';
+@import 'buttons';
+@import 'fonts';
+@import 'images';
+@import 'texts';
+
+
+@media screen and (min-width:769px){
+//Texts header start
+.configText2{
+  color:  $color4;
+  font-size: 12px;
+  font-family: Raleway;
+  font-weight: 600;
+}
+
+
+.headerContainer{
+  .navigateLinksContainer{
+      .navbar{
+          .collapse{
+              .navbar-nav{
+                  .nav-item{
+                      .configText1{
+                          color: $color5;
+                          font-size: 12px;
+                          font-family: Raleway;
+                          font-weight: 600;
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+//Texts header end
+
+//Texts welcome start
+.welcomeMessage{
+  font-weight: 700;
+  font-size: 59px;
+  color: $color4;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+//Texts welcome end
+
+//Texts principal start
+.textSms{
+  font-weight: 400;
+  font-size: 24px;
+  color: $color4;
+  font-family: 'Raleway', sans-serif;
+}
+//Texts principal end
+
+//Texts services start
+.textExplore{
+  font-weight: 700;
+  font-size: 50px;
+  color: $color4;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.descriptiveText2{
+  font-size: 13px;
+  text-align: left;
+  color: $color4;
+  font-family: 'Raleway', sans-serif;
+}
+
+.descriptiveText{
+  font-size: 13px;
+  text-align: left;
+  color: $color4;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bigText{
+font-size: 28px;
+font-weight: 600;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.smallText{
+  font-size: 14px;
+  color: $color20;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+//Texts services end
+
+//Texts carousel start
+.txtSlides{
+color: $color1;
+}
+
+.txtSmsSlide{
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+.txtSlide{
+  font-weight: 600;
+  font-size: 28px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.descritiveTextSlide{
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+.linkSlide{
+  color: $color1;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+//Texts carousel end
+
+//Texts about start
+.bestText{
+font-weight: 700;
+font-size: 50px;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.texItems{
+font-weight: 700;
+font-size: 15px;
+color: $color4;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+}
+//Texts about end
+
+//Texts steps start
+.stepTextContainer{
+text-align: center;
+}
+
+.textSteps{
+font-weight: 700;
+font-size: 50px;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+}
+
+.txtStep{
+font-weight: 600;
+font-size: 20px;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+}
+
+.txtStepOption{
+font-weight: 400;
+font-size: 14px;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+}
+//Texts steps end
+
+//Texts sample start
+.easyFormText{
+font-weight: 700;
+font-size: 50px;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: left;
+}
+//Texts sample end
+
+//Texts layout start
+
+//Texts layout end
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 360px){
+//Texts header start
+.configText2{
+  color:  $color4;
+  font-size: 12px;
+  font-family: Raleway;
+  font-weight: 600;
+}
+
+
+.headerContainer{
+  .navigateLinksContainer{
+      .navbar{
+          .collapse{
+              .navbar-nav{
+                  .nav-item{
+                      .configText1{
+                          color: $color5;
+                          font-size: 12px;
+                          font-family: Raleway;
+                          font-weight: 600;
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+//Texts header end
+
+//Texts welcome start
+.welcomeMessage{
+  font-weight: 700;
+  font-size: 30px;
+  color: $color4;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+//Texts welcome end
+
+//Texts principal start
+.textSms{
+  font-weight: 400;
+  font-size: 12px;
+  color: $color4;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+//Texts principal end
+
+//Texts services start
+.textExplore{
+  font-weight: 700;
+  font-size: 25px;
+  color: $color4;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+.descriptiveText2{
+  font-size: 13px;
+  text-align: left;
+  color: $color4;
+  font-family: 'Raleway', sans-serif;
+}
+
+.descriptiveText{
+  font-size: 13px;
+  text-align: left;
+  color: $color4;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bigText{
+font-size: 28px;
+font-weight: 600;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.smallText{
+  font-size: 14px;
+  color: $color20;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+//Texts services end
+
+//Texts carousel start
+.txtSlides{
+color: $color1;
+}
+
+.txtSmsSlide{
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.txtSlide{
+  font-weight: 600;
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+.descritiveTextSlide{
+  font-weight: 400;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.linkSlide{
+  color: $color1;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+//Texts carousel end
+
+//Texts about start
+.bestText{
+font-weight: 700;
+font-size: 24px;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+}
+
+.texItems{
+font-weight: 700;
+font-size: 15px;
+color: $color4;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+}
+//Texts about end
+
+//Texts steps start
+
+.stepTextContainer{
+text-align: center;
+}
+
+.textSteps{
+font-weight: 700;
+font-size: 50px;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+}
+
+.txtStep{
+font-weight: 600;
+font-size: 20px;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+}
+
+.txtStepOption{
+font-weight: 400;
+font-size: 14px;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+}
+//Texts steps end
+
+//Texts sample start
+.easyFormText{
+font-weight: 700;
+font-size: 30px;
+color: $color4;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+}
+//Texts sample end
+
+//Texts layout start
+
+//Texts layout end
+}
